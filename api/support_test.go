@@ -3,7 +3,7 @@ package webl
 import (
   "testing"
   . "gopkg.in/check.v1"
-  "code.google.com/p/go.net/html"
+  "golang.org/x/net/html"
 )
 
 // Hook up gocheck into the "go test" runner.

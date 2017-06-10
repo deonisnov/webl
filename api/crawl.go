@@ -4,7 +4,7 @@ import (
   "fmt"
   "sync"
   "net/http"
-  "code.google.com/p/go.net/html"
+  "golang.org/x/net/html"
   "io"
   "gopkg.in/fatih/set.v0"
   "io/ioutil"

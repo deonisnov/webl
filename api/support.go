@@ -4,7 +4,7 @@ import (
   "strings"
   "fmt"
   "net/url"
-  "code.google.com/p/go.net/html"
+  "golang.org/x/net/html"
   "gopkg.in/fatih/set.v0"
   "github.com/temoto/robotstxt-go"
   "net/http"

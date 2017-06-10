@@ -11,7 +11,7 @@ import (
   "github.com/garyburd/redigo/redis"
   "flag"
   "github.com/aforward/webl/api"
-  "code.google.com/p/go.net/websocket"
+  "golang.org/x/net/websocket"
 )
 
 //-----------
