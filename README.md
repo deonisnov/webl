@@ -10,19 +10,19 @@ The webcrawler uses [Redis](http://redis.io), to store results.  Please install 
 
 Install command line tool, weblconsole, and the web server, weblui, using the "go get" command:
 
-    go get github.com/aforward/webl/weblconsole
-    go get github.com/aforward/webl/weblui
+    go get github.com/deonisnov/webl/weblconsole
+    go get github.com/deonisnov/webl/weblui
 
 The the installation
   
     cd $GOPATH/src
-    go test github.com/aforward/webl/api
+    go test github.com/deonisnov/webl/api
 
 Now install it
 
     cd $GOPATH/src
-    go install github.com/aforward/webl/weblconsole
-    go install github.com/aforward/webl/weblui
+    go install github.com/deonisnov/webl/weblconsole
+    go install github.com/deonisnov/webl/weblui
     
 You should see an application in your bin directory
 
@@ -37,7 +37,7 @@ From the command line you can
 
 You can start the webserver using
 
-    cd $GOPATH/src/github.com/aforward/webl/weblui
+    cd $GOPATH/src/github.com/deonisnov/webl/weblui
     weblui
 
 You can now crawl websites through the UI

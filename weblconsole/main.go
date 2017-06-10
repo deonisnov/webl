@@ -2,7 +2,7 @@ package main
 
 import (
   "flag"
-  "github.com/aforward/webl/api"
+  "github.com/deonisnov/webl/api"
 )
 
 func main() {

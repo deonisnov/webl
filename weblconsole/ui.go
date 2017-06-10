@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  "github.com/aforward/webl/api"
+  "github.com/deonisnov/webl/api"
 )
 
 func showVersion() {
